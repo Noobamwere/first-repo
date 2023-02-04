@@ -12,6 +12,46 @@
 }
 
 #iframe-behaelter-behaelter {  
-    width: 80%;
+   padding-top: 5px;
+    width: 75%;
     margin: auto;
+}
+
+.content {
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+}
+
+#überschrift{
+    font-size: 40px;
+}
+
+#text{
+    font-size:20px;
+}
+
+#footer {
+    margin-top: 20vh;
+    font-size: 10px;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;    
+}
+
+body{
+    margin: 10px;
+    /* width: 100vw;
+    height: 100vh; */
+}
+
+button{
+    display: flex;
+    position: relative;
+    padding: 5px;
+    margin : auto;
+    margin-top: 10px;
+    border-radius: 4px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
