@@ -38,6 +38,28 @@
 html{
     width: 100vw;
     height: 100vh;    
+    animation: change-color linear 10s infinite;
+}
+
+@keyframes change-color{
+    0%{
+        background-color: blue;
+    }
+    20%{
+        background-color: red;
+    }
+    40%{
+        background-color: greenyellow;
+    }
+    60%{
+        background-color:yellow;
+    }
+    80%{
+        background-color: orange;
+    }
+    100%{
+        background-color: blue;
+    }
 }
 
 body{
