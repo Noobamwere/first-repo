@@ -1,14 +1,3 @@
-// let button = document.querySelector("button");
-// let body = document.querySelector("body");
-
-// button.addEventListener("click", function() {
-//   if (body.style.backgroundColor === "white") {
-//     body.style.backgroundColor = "black";
-//   } else {
-//     body.style.backgroundColor = "white";
-//   }
-// });
-
 let button = document.querySelector("button");
 let body = document.querySelector("body");
 
